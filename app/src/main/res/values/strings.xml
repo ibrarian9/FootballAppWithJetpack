@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">FootballAppWithJetpack</string>
+    <string-array name="data_name">
+        <item>Arsenal</item>
+        <item>Aston Villa</item>
+        <item>Brighton &amp; Hove Albion</item>
+        <item>Burnley</item>
+        <item>Chelsea</item>
+        <item>Crystal Palace</item>
+        <item>Everton</item>
+        <item>Fulham</item>
+        <item>Leeds United</item>
+        <item>Leicester City</item>
+        <item>Liverpool</item>
+        <item>Manchester City</item>
+        <item>Manchester United</item>
+        <item>Newcastle United</item>
+        <item>Sheffield United</item>
+        <item>Southampton</item>
+        <item>Tottenham Hotspur</item>
+        <item>West Bromwich Albion</item>
+        <item>West Ham United FC</item>
+        <item>Wolverhampton Wanderers</item>
+    </string-array>
+
+    <string-array name="data_stadium">
+        <item>Emirates Stadium</item>
+        <item>Villa Park</item>
+        <item>Falmer Stadium</item>
+        <item>Turf Moor</item>
+        <item>Stamford Bridge</item>
+        <item>Selhurst Park</item>
+        <item>Goodison Park</item>
+        <item>Craven Cottage</item>
+        <item>Elland Road</item>
+        <item>King Power Stadium</item>
+        <item>Anfield</item>
+        <item>Etihad Stadium</item>
+        <item>Old Trafford</item>
+        <item>St James\' Park</item>
+        <item>Bramall Lane</item>
+        <item>St Mary\'s Stadium</item>
+        <item>White Hart Lane</item>
+        <item>The Hawthorns</item>
+        <item>Boleyn Ground</item>
+        <item>Molineux Stadium</item>
+    </string-array>
+
+    <string-array name="data_epl">
+        <item>13</item>
+        <item>7</item>
+        <item>0</item>
+        <item>2</item>
+        <item>6</item>
+        <item>0</item>
+        <item>9</item>
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>19</item>
+        <item>9</item>
+        <item>20</item>
+        <item>4</item>
+        <item>1</item>
+        <item>0</item>
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="data_ucl">
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>6</item>
+        <item>1</item>
+        <item>3</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+
+    <string-array name="data_fa">
+        <item>14</item>
+        <item>7</item>
+        <item>0</item>
+        <item>1</item>
+        <item>8</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>8</item>
+        <item>7</item>
+        <item>12</item>
+        <item>6</item>
+        <item>4</item>
+        <item>1</item>
+        <item>8</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Arsenal Football Club (dikenal pula sebagai Arsenal atau The Gunners) adalah klub sepak bola profesional Inggris yang berbasis di daerah Holloway, London</item>
+        <item>Aston Villa berdiri tahun 1874 dan menggunakan stadion Villa Park dari tahun 1897 hingga sekarang. Aston Villa merupakan salah satu anggota pendiri Liga Sepak Bola (Football League) dan langsung mencapai kesuksesan, mereka memenangkan lima gelar dalam waktu tujuh musim.</item>
+        <item>Brighton &amp; Hove Albion Football Club adalah sebuah klub sepak bola profesional asal Inggris yang berbasis di kota pantai Brighton &amp; Hove, di timur Sussex.</item>
+        <item>Burnley Football Club adalah sebuah klub sepak bola Inggris yang bermarkas di Burnley, Lancashire. Klub ini sedang bermain di Liga Utama Inggris, kasta tertinggi sepak bola inggris di musim 2016–17 setelah memenangkan liga peringkat kedua yaitu Liga Championship Inggris di musim sebelumnya.</item>
+        <item>Chelsea Football Club /ˈtʃɛlsiː/ adalah sebuah klub sepak bola Inggris yang bermarkas di Fulham, London. Chelsea didirikan pada tahun 1905 dan kini berkompetisi di Liga Utama Inggris.</item>
+        <item>Crystal Palace Football Club merupakan sebuah tim sepak bola Inggris yang bermarkas di London Borough of Croydon dan didirikan pada tahun 1905.</item>
+        <item>Everton Football Club /ˈɛvərtən/ adalah sebuah klub sepak bola profesional yang bermarkas di Kota Liverpool, Inggris, dan merupakan klub rival dari klub sekota Liverpool.</item>
+        <item>Fulham Football Club /ˈfʊləm/ adalah sebuah klub sepak bola Inggris yang didirikan pada tahun 1879. Klub ini bermarkas di daerah Fulham, London dan berkompetisi di Liga Utama Inggris.</item>
+        <item>Leeds United Football Club adalah sebuah klub sepak bola asal Inggris yang berbasis di Beeston, Leeds, West Yorkshire. Pada akhir musim 2019–20, mereka mampu menjadi juara Kejuaraan EFL, sehingga akan promosi ke Liga Utama Inggris pada musim selanjutnya.</item>
+        <item>Leicester City F.C. adalah sebuah tim sepak bola Inggris berbasis di Leicester. Leicester Dikenal juga dengan sebutan The Foxes. Klub ini memainkan pertandingan kandangnya di Stadion King Power yang berkapsitas 32.000 penonton.",</item>
+        <item>Liverpool Football Club /ˈlɪvərpuːl/ (dikenal pula sebagai Liverpool atau The Reds) adalah sebuah klub sepak bola asal Inggris yang berbasis di Kota Liverpool.</item>
+        <item>Manchester City Football Club (dikenal pula sebagai Man City atau The Citizens) adalah sebuah klub sepak bola profesional dari Inggris yang bermain di Liga Premier Inggris. Klub ini merupakaan klub sekota dengan Manchester United dan bermarkas di Stadion Etihad, Manchester.</item>
+        <item>Manchester United Football Club adalah sebuah klub sepak bola profesional Inggris yang berbasis di Old Trafford, Manchester Raya, yang bermain di Liga Inggris. Didirikan sebagai Newton Heath LYR Football Club pada tahun 1878, klub ini berganti nama menjadi Manchester United pada 1902 dan pindah ke Old Trafford pada tahun 1910.</item>
+        <item>Newcastle United Football Club adalah klub sepak bola profesional Inggris yang berbasis di Newcastle upon Tyne, dan bermain di Liga Utama Inggris, kompetisi tingkat teratas dalam sepak bola Inggris.</item>
+        <item>Sheffield United Football Club adalah sebuah tim sepak bola profesional Inggris yang bermarkas di kota Sheffield, Yorkshire Selatan, Inggris. Tim ini dibentuk tahun 1889.</item>
+        <item>Southampton Football Club (berdiri dengan nama St. Mary\'s YMA) merupakan sebuah tim sepak bola Inggris yang didirikan tahun 1898. Bermarkas di Stadion St Mary\'s, Southampton, Hampshire, Southampton pada musim 2011–12 bermain di Football League Championship.</item>
+        <item>Tottenham Hotspur Football Club /ˈtɒtənəm/, adalah klub sepak bola yang berasal dari Tottenham, sebuah daerah yang berada di wilayah utara London.</item>
+        <item>West Bromwich Albion Football Club adalah sebuah klub sepak bola Inggris yang bermarkas di West Bromwich, West Midlands. Didirikan pada tahun 1878.</item>
+        <item>West Ham United Football Club adalah sebuah klub sepak bola Inggris yang bermarkas di London. Sejak 2016, klub ini memainkan pertandingan kandangnya di London Stadium yang berkapasitas 80.000 kursi.</item>
+        <item>Wolverhampton Wanderers Football Club adalah sebuah klub sepak bola Inggris yang bermarkas di Wolverhampton, Britania Raya yang bermain di Liga Utama Inggris.</item>
+    </string-array>
+
+    <string-array name="data_poto">
+        <item>@drawable/arsenal</item>
+        <item>@drawable/aston</item>
+        <item>@drawable/brighton</item>
+        <item>@drawable/burnley</item>
+        <item>@drawable/chelsea</item>
+        <item>@drawable/crystal</item>
+        <item>@drawable/everton</item>
+        <item>@drawable/fulham</item>
+        <item>@drawable/leeds</item>
+        <item>@drawable/leicester</item>
+        <item>@drawable/liverpool</item>
+        <item>@drawable/mancity</item>
+        <item>@drawable/manutd</item>
+        <item>@drawable/newcastle</item>
+        <item>@drawable/sheffield</item>
+        <item>@drawable/southampton</item>
+        <item>@drawable/tottenham</item>
+        <item>@drawable/wba</item>
+        <item>@drawable/westham</item>
+        <item>@drawable/wolverhampton</item>
+    </string-array>
+</resources>
