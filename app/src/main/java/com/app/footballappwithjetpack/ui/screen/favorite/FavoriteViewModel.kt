@@ -6,7 +6,7 @@ import com.app.footballappwithjetpack.model.Club
 import com.app.footballappwithjetpack.repository.ClubRepository
 
 class FavoriteViewModel(
-    private val clubRepository: ClubRepository
+    clubRepository: ClubRepository
 ): ViewModel() {
 
     val favoriteClubs: LiveData<List<Club>> = clubRepository.getAllFavorite()

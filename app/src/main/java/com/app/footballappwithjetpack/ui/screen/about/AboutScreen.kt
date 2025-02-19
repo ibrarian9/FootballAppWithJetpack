@@ -8,7 +8,9 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -30,10 +32,13 @@ fun AboutScreen(
     modifier: Modifier = Modifier,
     innerPadding: PaddingValues
 ){
+    val scrollState = rememberScrollState()
+
     Column(
         modifier = modifier
             .fillMaxSize()
             .padding(innerPadding)
+            .verticalScroll(scrollState)
     ) {
         TopNavBar(name = "About")
         Column(
@@ -59,11 +64,13 @@ fun AboutScreen(
                 textAlign = TextAlign.Center
             )
             Text(
+                modifier = modifier.padding(bottom = 80.dp),
                 text = "ibrarian9@gmail.com",
                 fontSize = 15.sp,
                 color = Color.Black,
                 textAlign = TextAlign.Center
             )
+
         }
     }
 }
