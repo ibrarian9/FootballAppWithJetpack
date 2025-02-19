@@ -52,9 +52,9 @@ fun HomeScreen(
     modifier: Modifier = Modifier,
     innerPadding: PaddingValues,
     navController: NavHostController,
-    navigateToDetail: (Int) -> Unit,
-    viewModel: HomeViewModel = getViewModel()
+    navigateToDetail: (Int) -> Unit
 ) {
+    val viewModel: HomeViewModel = getViewModel()
     var isSearchVisible by remember { mutableStateOf(false) }
     var searchQuery by remember { mutableStateOf("") }
     val clubs by viewModel.clubs.observeAsState(emptyList())
@@ -75,12 +75,12 @@ fun HomeScreen(
             .padding(innerPadding)
     ) {
         Column(
-            modifier = modifier
+            modifier = Modifier
                 .fillMaxSize()
                 .background(color = Color.White)
         ) {
             Row(
-                modifier = modifier
+                modifier = Modifier
                     .fillMaxWidth()
                     .background(MainColor)
                     .padding(vertical = 12.dp),
@@ -88,32 +88,32 @@ fun HomeScreen(
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 IconButton(
-                    modifier = modifier.weight(1f),
+                    modifier = Modifier.weight(1f),
                     onClick = {
                         isSearchVisible = !isSearchVisible
                     }) {
                     Icon(
-                        modifier = modifier.size(40.dp),
+                        modifier = Modifier.size(40.dp),
                         imageVector = Icons.Default.Search,
                         contentDescription = "",
                         tint = Color.White
                     )
                 }
-                Spacer(modifier = modifier.weight(1f))
+                Spacer(modifier = Modifier.weight(1f))
                 Text(
                     text = "EPL NEWS APP",
                     fontSize = 15.sp,
                     color = Color.White,
                     style = MaterialTheme.typography.headlineMedium
                 )
-                Spacer(modifier = modifier.weight(1f))
+                Spacer(modifier = Modifier.weight(1f))
                 IconButton(
-                    modifier = modifier.weight(1f),
+                    modifier = Modifier.weight(1f),
                     onClick = {
                         navController.navigate(Screen.About.route)
                     }) {
                     Icon(
-                        modifier = modifier.size(40.dp),
+                        modifier = Modifier.size(40.dp),
                         imageVector = Icons.Default.AccountCircle,
                         contentDescription = "",
                         tint = Color.White
@@ -151,9 +151,9 @@ fun HomeScreen(
             }
 
             LazyColumn(
-                modifier = modifier.fillMaxSize()
+                modifier = Modifier.fillMaxSize()
             ) {
-                items(filteredClub) { club ->
+                items(filteredClub, key = {it.id}) { club ->
                     ClubBox(
                         club = club,
                         navigateToDetail = {

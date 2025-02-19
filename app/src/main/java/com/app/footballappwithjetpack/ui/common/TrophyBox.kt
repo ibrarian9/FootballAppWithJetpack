@@ -23,7 +23,7 @@ fun TrophyBox(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Image(
-            modifier = modifier.size(100.dp),
+            modifier = Modifier.size(100.dp),
             painter = painterResource(id = image),
             contentDescription = ""
         )

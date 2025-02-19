@@ -39,21 +39,21 @@ fun ClubBox(
             }
     ) {
         Image(
-            modifier = modifier.size(120.dp)
+            modifier = Modifier.size(120.dp)
                 .padding(5.dp)
                 .align(alignment = Alignment.CenterVertically),
             painter = painterResource(id = club.poto),
             contentDescription = club.name
         )
         Column(
-            modifier = modifier
+            modifier = Modifier
                 .weight(1f)
                 .height(120.dp)
                 .padding(5.dp),
             verticalArrangement = Arrangement.Center
         ) {
             Text(
-                modifier = modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth(),
                 text = club.name,
                 color = Color.White,
                 textAlign = TextAlign.Center,
@@ -62,7 +62,7 @@ fun ClubBox(
                 overflow = TextOverflow.Ellipsis
             )
             Text(
-                modifier = modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth()
                     .padding(end = 10.dp, top = 5.dp),
                 text = club.desc,
                 color = Color.White,

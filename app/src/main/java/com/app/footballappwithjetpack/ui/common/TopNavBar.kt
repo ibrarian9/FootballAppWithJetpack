@@ -38,12 +38,12 @@ fun TopNavBar(
         verticalAlignment = Alignment.CenterVertically
     ) {
         IconButton(
-            modifier = modifier.weight(1f),
+            modifier = Modifier.weight(1f),
             onClick = {
                 backDispatcher?.onBackPressed()
             }) {
             Icon(
-                modifier = modifier
+                modifier = Modifier
                     .fillMaxWidth()
                     .padding(start = 10.dp),
                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
@@ -51,7 +51,7 @@ fun TopNavBar(
                 tint = Color.White
             )
         }
-        Spacer(modifier = modifier.weight(2f))
+        Spacer(modifier = Modifier.weight(2f))
         Text(
             text = name,
             fontSize = 15.sp,
@@ -59,7 +59,7 @@ fun TopNavBar(
             style = MaterialTheme.typography.headlineMedium,
             textAlign = TextAlign.Center
         )
-        Spacer(modifier = modifier.weight(3f))
+        Spacer(modifier = Modifier.weight(3f))
     }
 }
 

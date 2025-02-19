@@ -38,9 +38,9 @@ import org.koin.androidx.compose.getViewModel
 fun DetailScreen(
     clubId: Int,
     modifier: Modifier = Modifier,
-    innerPadding: PaddingValues,
-    viewModel: DetailViewModel = getViewModel()
+    innerPadding: PaddingValues
 ) {
+    val viewModel: DetailViewModel = getViewModel()
     val clubs by viewModel.clubs.observeAsState(emptyList())
 
     Box(

@@ -42,12 +42,12 @@ fun AboutScreen(
     ) {
         TopNavBar(name = "About")
         Column(
-            modifier = modifier.fillMaxSize(),
+            modifier = Modifier.fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Spacer(modifier = modifier.size(80.dp))
+            Spacer(modifier = Modifier.size(80.dp))
             Image(
-                modifier = modifier
+                modifier = Modifier
                     .size(200.dp)
                     .clip(CircleShape)
                     .border(width = 2.dp, color = MainColor, shape = CircleShape),
@@ -55,7 +55,7 @@ fun AboutScreen(
                 contentDescription = "",
                 contentScale = ContentScale.Crop
             )
-            Spacer(modifier = modifier.size(20.dp))
+            Spacer(modifier = Modifier.size(20.dp))
             Text(
                 text = "Ibra Sahrian Alsa",
                 fontSize = 18.sp,
@@ -64,7 +64,7 @@ fun AboutScreen(
                 textAlign = TextAlign.Center
             )
             Text(
-                modifier = modifier.padding(bottom = 80.dp),
+                modifier = Modifier.padding(bottom = 80.dp),
                 text = "ibrarian9@gmail.com",
                 fontSize = 15.sp,
                 color = Color.Black,

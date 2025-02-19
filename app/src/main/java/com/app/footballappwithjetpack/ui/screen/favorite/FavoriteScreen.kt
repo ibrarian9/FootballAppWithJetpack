@@ -20,9 +20,9 @@ import org.koin.androidx.compose.getViewModel
 fun FavoriteScreen(
     modifier: Modifier = Modifier,
     innerPaddingValues: PaddingValues,
-    navigateToDetail: (Int) -> Unit,
-    viewModel: FavoriteViewModel = getViewModel()
+    navigateToDetail: (Int) -> Unit
 ) {
+    val viewModel: FavoriteViewModel = getViewModel()
     val clubs by viewModel.favoriteClubs.observeAsState(emptyList())
 
     Column(
@@ -35,9 +35,9 @@ fun FavoriteScreen(
 
         // display filter list
         LazyColumn(
-            modifier = modifier.fillMaxSize()
+            modifier = Modifier.fillMaxSize()
         ) {
-            items(clubs) { club ->
+            items(clubs, key = {it.id}) { club ->
                 ClubBox(
                     club = club,
                     navigateToDetail = {

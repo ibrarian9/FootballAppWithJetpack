@@ -65,11 +65,11 @@ fun EPLNewsScreen(
             }
             composable(
                 route = Screen.DetailClub.route,
-                arguments = listOf(navArgument("clubId"){
+                arguments = listOf(navArgument(Screen.DetailClub.CLUB_ID_ARG){
                     type = NavType.IntType
                 })
             ) {
-                val id = it.arguments?.getInt("clubId") ?: -1
+                val id = it.arguments?.getInt(Screen.DetailClub.CLUB_ID_ARG) ?: -1
                 DetailScreen(
                     clubId = id,
                     innerPadding = innerPadding,

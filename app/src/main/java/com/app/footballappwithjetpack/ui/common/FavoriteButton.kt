@@ -51,7 +51,7 @@ fun FavoriteButton(
             horizontalAlignment = Alignment.CenterHorizontally
         ){
             IconButton(
-                modifier = modifier.size(30.dp),
+                modifier = Modifier.size(30.dp),
                 onClick = {
                     if (isFav)
                         detailViewModel.removeFavorite(club)
@@ -59,7 +59,7 @@ fun FavoriteButton(
                         detailViewModel.addFavorite(club)
                 }) {
                 Icon(
-                    modifier = modifier.fillMaxSize(),
+                    modifier = Modifier.fillMaxSize(),
                     imageVector = if (isFav) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
                     contentDescription = "",
                     tint = Color.White
